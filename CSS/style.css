@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "IBM Plex Mono", monospace;
+    color: var(--black-color);
 }
 
 p,
@@ -186,8 +186,6 @@ li {
     display: grid;
     align-items: center;
     justify-content: center;
-    background-image: url(/Images/backg4.avif);
-    background-size: cover;
 
     .grid {
         max-width: 130rem;
@@ -199,26 +197,41 @@ li {
         background-color: var(--white-color);
         padding: 2.4rem;
         transition: all .5s linear;
-        border-radius: .5rem 5rem .5rem 5rem;
-        -webkit-border-radius: .5rem 5rem .5rem 5rem;
-        -moz-border-radius: .5rem 5rem .5rem 5rem;
-        -ms-border-radius: .5rem 5rem .5rem 5rem;
-        -o-border-radius: .5rem 5rem .5rem 5rem;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
         -webkit-transition: all .5s linear;
         -moz-transition: all .5s linear;
         -ms-transition: all .5s linear;
         -o-transition: all .5s linear;
-}
-
-    .skill-container:nth-of-type(1) {
-        background-image: linear-gradient(to bottom right, #bef0f1, #fadcfa);
-        box-shadow: .1rem .1rem .1rem var(--blue-color);
     }
 
-    .skill-container:hover {
-        background-image: linear-gradient(to bottom right, #bef0f1, #fadcfa);
-        box-shadow: .1rem .1rem .1rem var(--blue-color);
+    .skill-container:nth-of-type(1){
+        background-color: #e2fdfd;
     }
+
+    .skill-container:nth-of-type(2){
+        background-color: #e0ffda;
+    }
+
+    .skill-container:nth-of-type(3){
+        background-color: #f3d5ec;
+    }
+
+    .skill-container:nth-of-type(4){
+        background-color: #e2fdfd;
+    }
+
+    .skill-container:nth-of-type(5){
+        background-color: #e0ffda;
+    }
+
+    .skill-container:nth-of-type(6){
+        background-color: #f3d5ec;
+    }
+
 
     .skill-title {
         font-size: 1.6rem;
@@ -264,21 +277,15 @@ li {
     display: grid;
     align-items: center;
     justify-content: center;
-    /* background-image: url(/Images/backg4.avif);
-    background-size: cover; */
+    background-image: url(/Images/new4.svg);
+    background-size: cover;
 
     .container {
         max-width: 90rem;
+        padding-top: 2rem;
         display: flex;
         flex-wrap: wrap;
-        padding-top: 2rem;
-        justify-content: center;       
-        box-shadow: rgba(78, 78, 241, 0.4) 0 .1rem 2rem 0;
-        border-radius: 2rem;
-        -webkit-border-radius: 2rem;
-        -moz-border-radius: 2rem;
-        -ms-border-radius: 2rem;
-        -o-border-radius: 2rem;
+        justify-content: center;             
     }
 
     .education-content {
@@ -450,6 +457,7 @@ li {
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 2rem;
         background-color: #9096f3;
         background-image: linear-gradient(to left, #aff5e9, #f6b6f8, #d3f7b7);
         border-radius: .5rem;
@@ -457,11 +465,11 @@ li {
         -moz-border-radius: .5rem;
         -ms-border-radius: .5rem;
         -o-border-radius: .5rem;
-}
+    }
 
     .tab {
-        margin: 1rem 1rem;
-        padding: 10px 30px;
+        margin: .5rem 0;
+        padding: .5rem 2rem;
         border: none;
         cursor: pointer;
         font-size: 1.6rem;
@@ -479,7 +487,8 @@ li {
 }
 
     .tab.active {
-        background-image: linear-gradient(to bottom right, #bef0f1, #fadcfa);
+        background-color:var(--blue-color);
+        color: var(--white-color);
     }
 
     .content {
@@ -799,16 +808,6 @@ i {
 
     .image-container img {
         display: none;
-    }
-
-    .experience-content {
-        margin-bottom: 2rem;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-        border-radius: 1rem;
-        -webkit-border-radius: 1rem;
-        -moz-border-radius: 1rem;
-        -ms-border-radius: 1rem;
-        -o-border-radius: 1rem;
     }
 }
 
