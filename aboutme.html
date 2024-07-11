@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Baburao Adkane">
-    <title>Baburao Adkane - Home</title>
+    <meta name="description" content="Baburao Adkane - QA Engineer">
+    <meta name="Author" content="Baburao Adkane">
+    <title>Baburao Adkane - About me</title>
     <link rel="icon" href="/Images/index.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -32,11 +34,8 @@
                     <li><a href="contactme.html">Contact me</a></li>
                 </ul>
             </div>
-            <!-- <div class="button">
-                <a href="tel:+91-9225527291"><button><i class="fa-solid fa-phone"></i> Make a Call</button></a>
-            </div> -->
         </div>
-    </header>  
+    </header>    
     <section class="section-aboutme">
         <div class="section-head--title">
             <span class="section-title"><i class="fa-solid fa-diamond"></i>About me<i
@@ -44,12 +43,12 @@
         </div>
         <h3 class="section-subtitle">Discover My Journey: From Dreams to Reality</h3>
         <div class="container grid grid-two--cols">
-            <div class="main-image">
+            <div class="main-image" data-aos="zoom-in-right" data-aos-duration="1500">
                 <figure>
                     <img src="/Images/about.webp" alt="aboutme section image">
                 </figure>
             </div>
-            <div class="section-content">
+            <div class="section-content" data-aos="fade-up" data-aos-duration="1000">
                 <div class="section-head">
                     <span class="section-heading"><i class="fa-solid fa-circle-dot"></i>Get to know about me</span>
                 </div>
@@ -79,10 +78,10 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
     <footer class="section-footer">
         <div class="container">
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="1000">
                 <h3>Links</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -90,7 +89,7 @@
                     <li><a href="skills.html">Skills</a></li>
                 </ul>
             </div>
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="1500">
                 <h3>Other Links</h3>
                 <ul>
                     <li><a href="experience.html">Qualification</a></li>
@@ -98,15 +97,24 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </div>
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="2000">
                 <h3>Follow Me</h3>
                 <ul class="social-links">
-                    <li><a href="https://www.linkedin.com/in/baburao-adkane-443476250" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>                    
+                    <li><a href="https://www.linkedin.com/in/baburao-adkane-443476250" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app" target="_blank"><i
+                                class="fab fa-google-plus-g"></i></a></li>
                 </ul>
             </div>
         </div>
-    </footer>   
+        <div class="copyright">
+            <p>&copy; 2024 Baburao Adkane. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

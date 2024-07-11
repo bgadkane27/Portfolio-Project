@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Baburao Adkane">
-    <title>Baburao Adkane - Home</title>
+    <meta name="description" content="Baburao Adkane - QA Engineer">
+    <meta name="Author" content="Baburao Adkane">
+    <title>Baburao Adkane - Portfolio</title>
     <link rel="icon" href="/Images/index.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -32,9 +34,6 @@
                     <li><a href="contactme.html">Contact me</a></li>
                 </ul>
             </div>
-            <!-- <div class="button">
-                <a href="tel:+91-9225527291"><i class="fa-solid fa-phone"></i> Make a Call</i></a>
-            </div> -->
         </div>
     </header>
     <section class="section-portfolio">
@@ -52,7 +51,7 @@
             <div class="tab-content">
                 <div id="all" class="content">
                     <div class="grid grid-three--cols">
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-left" data-aos-duration="1000">
                             <div class="port-image">
                                 <img src="/Images/eblue.svg" alt="Project Logo">
                             </div>
@@ -62,7 +61,7 @@
                                 HR processes, including payroll, recruitment, Attendance and employee management.
                             </p>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-left" data-aos-duration="1500">
                             <div class="port-image">
                                 <img src="/Images/eblue.svg" alt="Project Logo">
                             </div>
@@ -74,7 +73,7 @@
                                 decision-making.
                             </p>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-left" data-aos-duration="2000">
                             <div class="port-image">
                                 <img src="/Images/eblue.svg" alt="Project Logo">
                             </div>
@@ -84,7 +83,7 @@
                                 it's designed to bridge the gap between businesses and their customers connect.
                             </p>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-right" data-aos-duration="1000">
                             <div class="port-image">
                                 <img src="/Images/eblue.svg" alt="Project Logo">
                             </div>
@@ -95,7 +94,7 @@
                                 interface.
                             </p>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-right" data-aos-duration="1500">
                             <div class="port-image">
                                 <img src="/Images/eblue.svg" alt="Project Logo">
                             </div>
@@ -106,7 +105,7 @@
                                 warm, inviting atmosphere.
                             </p>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-right" data-aos-duration="2000">
                             <div class="port-image">
                                 <img src="/Images/eblue.svg" alt="Project Logo">
                             </div>
@@ -117,7 +116,7 @@
                                 recommendations.
                             </p>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-up" data-aos-duration="1000">
                             <div class="port-image">
                                 <img src="/Images/eblue.svg" alt="Project Logo">
                             </div>
@@ -128,7 +127,7 @@
                                 and automated processes to optimize real estate investments.
                             </p>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-up" data-aos-duration="1500">
                             <div class="port-image">
                                 <img src="/Images/llogo.webp" alt="Project Logo">
                             </div>
@@ -140,17 +139,17 @@
                                 Underwriting and disbursal.
                             </p>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-up" data-aos-duration="2000">
                             <div class="port1-image">
                                 <img src="/Images/Main-Page.webp" alt="Design Image">
                             </div>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-down" data-aos-duration="1000">
                             <div class="port1-image">
                                 <img src="/Images/404.webp" alt="Design Image">
                             </div>
                         </div>
-                        <div class="portfolio-content">
+                        <div class="portfolio-content" data-aos="flip-down" data-aos-duration="1500">
                             <div class="port1-image">
                                 <img src="/Images/LMB.webp" alt="Design Image">
                             </div>
@@ -274,7 +273,7 @@
     </section>
     <footer class="section-footer">
         <div class="container">
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="1000">
                 <h3>Links</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -282,7 +281,7 @@
                     <li><a href="skills.html">Skills</a></li>
                 </ul>
             </div>
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="1500">
                 <h3>Other Links</h3>
                 <ul>
                     <li><a href="experience.html">Qualification</a></li>
@@ -290,16 +289,25 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </div>
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="2000">
                 <h3>Follow Me</h3>
                 <ul class="social-links">
-                    <li><a href="https://www.linkedin.com/in/baburao-adkane-443476250" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>                    
+                    <li><a href="https://www.linkedin.com/in/baburao-adkane-443476250" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app" target="_blank"><i
+                                class="fab fa-google-plus-g"></i></a></li>
                 </ul>
             </div>
         </div>
-    </footer>     
+        <div class="copyright">
+            <p>&copy; 2024 Baburao Adkane. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="/Scripts/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

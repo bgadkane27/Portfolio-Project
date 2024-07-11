@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Baburao Adkane">
-    <title>Baburao Adkane - Home</title>
+    <meta name="description" content="Baburao Adkane - QA Engineer">
+    <meta name="Author" content="Baburao Adkane">
+    <title>Baburao Adkane - Skills</title>
     <link rel="icon" href="/Images/index.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -32,9 +34,6 @@
                     <li><a href="contactme.html">Contact me</a></li>
                 </ul>
             </div>
-            <!-- <div class="button">
-                <a href="tel:+91-9225527291"><i class="fa-solid fa-phone"></i> Make a Call</i></a>
-            </div> -->
         </div>
     </header>
     <section class="section-skills">
@@ -44,7 +43,7 @@
         </div>
         <h3 class="section-subtitle">I work hard and smart to increase the skiils</h3>
         <div class="container grid grid-three--cols">
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-right">
                 <h2 class="section-sub--heading">Manual Testing</h2>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>Functional testing</p>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>Sanity testing</p>
@@ -52,7 +51,7 @@
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>Regression testing</p>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>Usability testing</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="section-sub--heading">Test analysis & design</h2>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>Prepare test scenarios, writing the test
                     cases, generating the test
@@ -60,28 +59,28 @@
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>can apply equivalence partitioning,
                     boundary value analysis and methods of pairwise testing to generate test input data</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-right" data-aos-duration="1500">
                 <h2 class="section-sub--heading">API testing</h2>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>gained experience through manual testing
                     of APIs created for educational purposes</p>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>know how to manipulate requests and create
                     test cases using the SoapUI tool</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-right">
                 <h2 class="section-sub--heading">Exploratory testing</h2>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>capable of using Whittaker's test tours
                     and creating cheat-lists for testing web applications</p>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>gained hands-on experience by testing
                     applications created for educational purposes</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="section-sub--heading">Test documentation</h2>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>can create test cases and checklists and
                     know how and in which situations to use them effectively</p>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>able to prepare comprehensive bug reports
                     and provide detailed session reports</p>
             </div>
-            <div class="skill-container">
+            <div class="skill-container" data-aos="fade-right" data-aos-duration="1500">
                 <h2 class="section-sub--heading">SQL databases</h2>
                 <p class="skill-para"><i class="fa-solid fa-circle-check"></i>can write complex requests using
                     subqueries</p>
@@ -124,7 +123,7 @@
     </section>
     <footer class="section-footer">
         <div class="container">
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="1000">
                 <h3>Links</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -132,7 +131,7 @@
                     <li><a href="skills.html">Skills</a></li>
                 </ul>
             </div>
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="1500">
                 <h3>Other Links</h3>
                 <ul>
                     <li><a href="experience.html">Qualification</a></li>
@@ -140,15 +139,24 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </div>
-            <div class="footer-section">
+            <div class="footer-section" data-aos="fade-up" data-aos-duration="2000">
                 <h3>Follow Me</h3>
                 <ul class="social-links">
-                    <li><a href="https://www.linkedin.com/in/baburao-adkane-443476250" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>                    
+                    <li><a href="https://www.linkedin.com/in/baburao-adkane-443476250" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app" target="_blank"><i
+                                class="fab fa-google-plus-g"></i></a></li>
                 </ul>
             </div>
         </div>
-    </footer>  
+        <div class="copyright">
+            <p>&copy; 2024 Baburao Adkane. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
