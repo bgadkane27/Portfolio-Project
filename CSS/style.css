@@ -7,6 +7,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -836,6 +837,75 @@ i {
         box-shadow: 0 .2rem 0 var(--blue-color);
     } 
     
+}
+
+.section-footer{
+    background-image: linear-gradient(to left, #aff5e9, #f6b6f8, #d3f7b7);
+    padding: 4rem 2rem;
+    text-align: center;
+
+   .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+   }
+
+   .footer-section {
+        flex: 1 1 20rem;
+    }
+
+    .footer-section h3 {
+        margin-bottom: 1.5rem;
+        font-size: 1.4em;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul li a {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: var(--para-color);
+        transition: color 0.3s ease;
+    }
+
+    .footer-section ul li a:hover {
+        color: #007bff;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .social-links li {
+        margin: 0 10px;
+    }
+
+    .social-links li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        transition: all .5s linear;
+        -webkit-transition: all .5s linear;
+        -moz-transition: all .5s linear;
+        -ms-transition: all .5s linear;
+        -o-transition: all .5s linear;
+}
+
+    .social-links li a:hover {
+        background-color: #007bff;
+    }
+
+    i{
+        padding-left: 1rem;
+        font-size: 1.6rem;
+    }
 }
 
 @keyframes moveStar {
