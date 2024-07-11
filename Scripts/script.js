@@ -28,6 +28,7 @@ function showTab(tabName) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(tabName).style.display = 'block';
     event.currentTarget.classList.add('active');
+    // document.getElementById(tabName).classList.add("active");
 }
 
 // Initial display setup: show 'all' tab content and set 'all' tab as active
