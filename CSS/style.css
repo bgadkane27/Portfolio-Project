@@ -52,6 +52,10 @@ li {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-four--cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .section-head {
     margin: 1rem 0;
     text-align: start;
@@ -78,7 +82,7 @@ li {
 
     button{
         padding: 1.1rem 2.2rem;
-        background-color: #fff;
+        background-color: var(--white-color);
         border: none;
         font-size: 1.6rem;
         font-weight: 600;
@@ -102,8 +106,8 @@ li {
     button::after{
         content: '';
         position: absolute;
-        width: 103%;
-        height: 110%;
+        width: 102%;
+        height: 105%;
         border-radius: 100rem;
         background-image:linear-gradient(to bottom right, #008cff, #e100ff);
         z-index: -1;
@@ -153,7 +157,7 @@ i {
 
 .section-head--title {
     text-align: center;
-    margin: 7rem 0 1.2rem 0;
+    margin: 7rem 0 1.5rem 0;
     padding: 1rem;
 }
 
@@ -249,6 +253,17 @@ i {
         color: var(--white-color);
         font-size: 1.4rem;
     }
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: var(--white-color);
+    line-height: 1.8;
 }
 
 .section-hero {
@@ -438,67 +453,73 @@ i {
 
 }
 
-.section-experience {
-    max-width: 100%;
-    min-height: 100vh;
+.section-experience{
     padding: 2.4rem 0;
+    max-width: 100%;
+    height: auto;
+    background-color:var(--blue-color);
     display: grid;
-    align-items: center;
     justify-content: center;
-    background-image: url(/Images/new4.svg);
-    background-size: cover;
+    align-items: center;
+   
+    .container{
+        gap: 2rem;
+        padding: 4rem 2rem;
+        max-width: 120rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
 
-    .container {
-        max-width: 90rem;
-        padding-top: 2rem;
+    .companies-img{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;             
+        justify-content: center;
+        align-items: center;
     }
 
-    .education-content {
-        padding: 0 2.4rem;
+    .companies-img img{
+        width: 80%;
+        height: auto;
     }
 
-    .education {
-        margin-bottom: 1.2rem;
-        padding: 1.2rem;
+    .section-subtitle{
+        color: var(--white-color);
     }
 
-    .edu-heading {
-        font-size: 2.4rem;
+}
+
+.section-education{
+    padding: 2.4rem 0;
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Images/backg9.png);
+    background-size: cover;
+   
+    .container{
+        gap: 5rem;
+        padding: 4rem 2rem;
+        max-width: 120rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education-img img{
+        width: 60%;
+        height: auto;
+    }
+    
+    figcaption{
         color: var(--black-color);
-
-        i {
-            font-size: 2.4rem;
-        }
-    }
-
-    .details {
-        margin: 2rem 0;
-    }
-
-    .edu-name {
-        color: var(--black-color);
-        padding: .5rem 0;
-        font-size: 1.6rem;
-        font-weight: 600;
-    }
-
-    .edu-stream {
-        padding-left: 2.2rem;
-        padding-bottom: .7rem;
-        font-size: 1.4rem;
-        font-weight: 500;
-        letter-spacing: 0.02rem;
-        color: var(--para-color);
-    }
-
-    .edu-year {
-        padding-left: 2.2rem;
-        font-size: 1.2rem;
-        font-weight: 600;
-        color: var(--para-color);
     }
 
 }
@@ -764,8 +785,7 @@ i {
 .section-contactme{
     max-width: 100%;
     min-height: 100vh;
-    padding: 2.4rem 0;
-       
+    padding: 2.4rem 0;       
     
     .container{
         max-width: 80rem;
@@ -871,7 +891,7 @@ i {
     }
 
     .footer-section ul li a:hover {
-        color: #007bff;
+        color: var(--btn-hover-color);
     }
 
     .social-links {
@@ -899,7 +919,7 @@ i {
 }
 
     .social-links li a:hover {
-        background-color: #007bff;
+        background-color: #f6b6f8;
     }
 
     i{
@@ -949,6 +969,10 @@ i {
         grid-template-columns: 1fr;
     }
 
+    .grid-four--cols {
+        grid-template-columns: 1fr;
+    }
+
     .section-head {
         text-align: center;
     }
@@ -969,5 +993,7 @@ i {
         display: none;
     }
 }
+
+
 
 
