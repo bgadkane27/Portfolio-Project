@@ -38,16 +38,14 @@ li {
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--blue-color);
-    /* color of the scrollbar handle */
-    height: 2rem;
+    /*colorofthescrollbarhandle*/height: 2rem;
     border: .3rem solid #ffffff;
-    /* creates padding around the handle */
-    border-radius: 5rem;
-    /* roundness of the scrollbar handle */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     -webkit-border-radius: 5rem;
-    -moz-border-radius: 5rem;
-    -ms-border-radius: 5rem;
-    -o-border-radius: 5rem;
 }
 
 :root {
@@ -181,7 +179,7 @@ i {
 
 .section-head--title {
     text-align: center;
-    margin: 7rem 0 1.5rem 0;
+    margin: 4rem 0 1.5rem 0;
     padding: 1rem;
 }
 
@@ -339,6 +337,7 @@ figcaption {
         padding: 1.2rem 0;
         color: var(--para-color);
         font-size: 1.4rem;
+        font-weight: 500;
         line-height: 1.8;
         letter-spacing: 0.01rem;
     }
@@ -403,19 +402,20 @@ figcaption {
 
     .skill-container {
         padding: 2.4rem;
+        width:35rem;
         transition: all .5s linear;
         box-shadow: 0 .2rem .3rem rgba(0, 0, 0, 0.2);
-        border-radius: 1.5rem;
-        -webkit-border-radius: 1.5rem;
-        -moz-border-radius: 1.5rem;
-        -ms-border-radius: 1.5rem;
-        -o-border-radius: 1.5rem;
+        border-radius: 1rem;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        -ms-border-radius: 1rem;
+        -o-border-radius: 1rem;
         transition: transform 0.5s ease;
         -webkit-transition: transform 0.5s ease;
         -moz-transition: transform 0.5s ease;
         -ms-transition: transform 0.5s ease;
         -o-transition: transform 0.5s ease;
-    }
+}
 
     .skill-container:hover {
         transform: translateX(2px) translateY(2px);
@@ -714,17 +714,17 @@ figcaption {
         text-align: center;
         box-shadow: rgba(33, 35, 38, 0.4) 0px 10px 10px -10px;
         background-image: linear-gradient(to bottom, #e9fffb, #fedfff, #efffe2);
-        border-radius: 3.5rem;
-        -webkit-border-radius: 3.5rem;
-        -moz-border-radius: 3.5rem;
-        -ms-border-radius: 3.5rem;
-        -o-border-radius: 3.5rem;
+        border-radius: .5rem 5rem 1rem 5rem;
+        -webkit-border-radius: .5rem 5rem .5rem 5rem;
+        -moz-border-radius: .5rem 5rem 1rem 5rem;
+        -ms-border-radius: .5rem 5rem 1rem 5rem;
+        -o-border-radius: .5rem 5rem 1rem 5rem;
         transition: transform 0.5s ease, box-shadow 0.5s ease;
         -webkit-transition: transform 0.5s ease, box-shadow 0.5s ease;
         -moz-transition: transform 0.5s ease, box-shadow 0.5s ease;
         -ms-transition: transform 0.5s ease, box-shadow 0.5s ease;
         -o-transition: transform 0.5s ease, box-shadow 0.5s ease;
-    }
+}
 
     .portfolio-content:hover {
         box-shadow: rgba(102, 115, 226, 0.5) 0 1rem 2rem;
@@ -751,6 +751,8 @@ figcaption {
         max-width: 100%;
         padding: .5rem;
     }
+
+
 }
 
 .section-discussion {
@@ -822,6 +824,12 @@ figcaption {
         padding: 2.4rem;
     }
 
+    .contact-info a{
+        color: var(--blue-color);
+        font-size: 1.4rem;
+        line-height: 3;
+    }
+
     .contact-form {
         padding: 2.4rem;
     }
@@ -829,11 +837,6 @@ figcaption {
     .info-head {
         font-size: 1.6rem;
         padding-bottom: 1.2rem;
-    }
-
-    .info-subhead {
-        font-size: 1.4rem;
-        padding: 1rem 0;
     }
 
     Label {
@@ -879,13 +882,13 @@ figcaption {
 
 .section-footer {
     background-image: linear-gradient(to left, #aff5e9, #f6b6f8, #d3f7b7);
-    padding: 4rem 2rem;
-    text-align: center;
+    padding: 4rem 6rem;    
 
     .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        max-width: 120rem;
+        display: grid;
+        justify-items: center;
+        align-items: center;
     }
 
     .footer-section {
@@ -910,12 +913,19 @@ figcaption {
 
     .footer-section ul li a:hover {
         color: var(--btn-hover-color);
+
+        i{
+            color: var(--btn-hover-color);
+        }
     }
 
     .social-links {
-        display: flex;
-        justify-content: center;
-        padding: 0;
+        display: grid;
+
+        i {
+            padding-left: 1.2rem;
+            font-size: 1.6rem;
+        }
     }
 
     .social-links li {
@@ -938,17 +948,13 @@ figcaption {
 
     .social-links li a:hover {
         background-color: #f6b6f8;
-    }
-
-    i {
-        padding-left: 1rem;
-        font-size: 1.6rem;
-    }
+    }  
 
     p {
         font-size: 1.4rem;
         margin-top: 1.2rem;
         color: #858585;
+        text-align: center;
     }
 }
 
@@ -989,6 +995,10 @@ figcaption {
 
     .grid-four--cols {
         grid-template-columns: 1fr;
+    }
+
+    .section-head--title {
+        margin: 7rem 0 1.5rem 0;
     }
 
     .section-head {
