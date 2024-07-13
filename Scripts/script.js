@@ -37,8 +37,6 @@
 
 // });
 
-AOS.init();
-
 function showTab(tab) {
     // Hide all tab content except the selected one
     document.querySelectorAll('.tab-content .content').forEach(function (content) {
