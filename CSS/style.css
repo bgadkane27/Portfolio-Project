@@ -1021,3 +1021,72 @@ figcaption {
         display: none;
     }
 }
+
+.section-Branding{
+    width: 100%;
+
+    .container{
+        margin: 5rem 0;
+        overflow: hidden;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .brand-head{
+        display: inline-block;
+        font-size: 9.6rem;
+        border: none;
+        color: transparent;
+        -webkit-text-stroke: .1rem var(--black-color);
+        animation: moveText 25s linear infinite;
+        -webkit-animation: moveText 25s linear infinite;
+    }
+
+    .brand-subhead{
+        padding: 3rem 0;
+        display: inline-block;
+        font-size: 9.6rem;
+        animation: moveRText 25s linear infinite;
+        -webkit-animation: moveRText 25s linear infinite;
+}
+   
+}
+
+@keyframes moveText {
+    
+    0% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+    
+    100% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+    }
+}
+
+
+@keyframes moveRText {
+    0% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }  
+}
+
