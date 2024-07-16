@@ -59,5 +59,3 @@ function showTab(tab) {
 document.addEventListener('DOMContentLoaded', function () {
     showTab('all');
 });
-
-
