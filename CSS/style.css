@@ -332,7 +332,18 @@ figcaption {
 
     .main-post {
         font-size: 3.2rem;
-        color: var(--btn-hover-color);
+        background-image: linear-gradient(to right, #2c9af5, #c201db 50%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .change-text{
+        position: relative;
+        display: inline-block;
+        color: #2c9af5;
+        padding: .2rem 1.2rem .7rem 1.2rem;
+        background-color:#fae1f6;
+        border-radius: 5rem;
     }
 
     .main-para {
@@ -1141,3 +1152,6 @@ figcaption {
         display: none;
     }
 }
+
+
+

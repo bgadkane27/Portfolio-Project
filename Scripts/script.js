@@ -59,3 +59,15 @@ function showTab(tab) {
 document.addEventListener('DOMContentLoaded', function () {
     showTab('all');
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const changeText = document.querySelector('.change-text');
+    const texts = ['QA', 'QC'];
+    let index = 0;
+
+    setInterval(() => {
+        index = (index + 1) % texts.length;
+        changeText.textContent = texts[index];
+    }, 3000);
+});
