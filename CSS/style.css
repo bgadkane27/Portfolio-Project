@@ -480,6 +480,7 @@ figcaption {
 
     .skill-container:hover {
         box-shadow: 0 .5rem var(--blue-color);
+        box-shadow: rgba(204, 0, 255, 0.5) 0px 7px 25px 0px;
     }
 
     .skill-container:nth-of-type(1) {
