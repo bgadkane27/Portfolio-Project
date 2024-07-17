@@ -106,7 +106,8 @@ li {
         padding: 1.1rem 2.2rem;
         background-color: var(--white-color);
         border: none;
-        font-size: 1.6rem;
+        outline: .2rem solid #fd92eb;
+        font-size: 1.4rem;
         font-weight: 600;
         color: var(--black-color);
         border-radius: 100rem;
@@ -170,11 +171,7 @@ i {
 .main-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 3rem;
-    -webkit-border-radius: 3rem;
-    -moz-border-radius: 3rem;
-    -ms-border-radius: 3rem;
-    -o-border-radius: 3rem;
+    border-radius: .5rem;
 }
 
 .section-head--title {
@@ -210,7 +207,7 @@ i {
     line-height: 1.8;
     letter-spacing: 0.02rem;
     font-weight: 500;
-    text-align: justify;
+    /* text-align: justify; */
     color: var(--para-color);
 }
 
@@ -296,6 +293,8 @@ figcaption {
     display: grid;
     justify-content: center;
     align-items: center;
+    background-image: url(/Images/mainback.webp);
+    background-size: cover;
 
     .container {
         max-width: 120rem;
@@ -325,7 +324,7 @@ figcaption {
 
     .hero-heading {
         font-size: 6.4rem;
-        background-image: linear-gradient(to right, #2c9af5, #b20ac9);
+        background-image: linear-gradient(to right, #008afc, #b20ac9);
         background-clip: text;
         color: transparent;
     }
@@ -340,9 +339,9 @@ figcaption {
     .change-text{
         position: relative;
         display: inline-block;
-        color: #2c9af5;
+        color: #008afc;
         padding: .2rem 1.2rem .7rem 1.2rem;
-        background-color:#fae1f6;
+        background-color:#fff;
         border-radius: 5rem;
     }
 
@@ -368,7 +367,7 @@ figcaption {
     .container {
         max-width: 120rem;
         padding: 3.2rem;
-        background-image: linear-gradient(to bottom right, #9096f3, #f5e9d2, #b0eff1);
+        /* background-image: linear-gradient(to bottom right, #9096f3, #f5e9d2, #b0eff1); */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -381,7 +380,7 @@ figcaption {
 
     .grid {
         display: grid;
-        gap: 2.4rem;
+        gap: 3.2rem;
     }
 
     .image-container {
@@ -745,7 +744,7 @@ figcaption {
     max-width: 100%;
     min-height: 100vh;
     padding: 2.4rem 0;
-    /* background-color:hsl(236, 71%, 96%); */
+    background-image: linear-gradient(to bottom right, #cee7e3, #fee4ff, #d5dfff);
 
     .container {
         max-width: 120rem;
@@ -807,12 +806,14 @@ figcaption {
         padding: 2rem;
         text-align: center;
         box-shadow: rgba(33, 35, 38, 0.4) 0px 10px 10px -10px;
-        background-image: linear-gradient(to bottom, #e9fffb, #fedfff, #efffe2);
-        border-radius: .5rem 5rem 1rem 5rem;
-        -webkit-border-radius: .5rem 5rem .5rem 5rem;
-        -moz-border-radius: .5rem 5rem 1rem 5rem;
-        -ms-border-radius: .5rem 5rem 1rem 5rem;
-        -o-border-radius: .5rem 5rem 1rem 5rem;
+        background-color: var(--white-color);
+        /* outline: .01rem solid var(--pink-color); */
+        /* background-image: linear-gradient(to bottom, #d5f8f2, #c3d3fd); */
+        border-radius: .5rem;
+        -webkit-border-radius: .5rem;
+        -moz-border-radius: .5rem;
+        -ms-border-radius: .5rem;
+        -o-border-radius: .5rem;
         transition: transform 0.5s ease, box-shadow 0.5s ease;
         -webkit-transition: transform 0.5s ease, box-shadow 0.5s ease;
         -moz-transition: transform 0.5s ease, box-shadow 0.5s ease;
@@ -821,7 +822,8 @@ figcaption {
 }
 
     .portfolio-content:hover {
-        box-shadow: rgba(102, 115, 226, 0.5) 0 1rem 2rem;
+        /* box-shadow: rgba(102, 115, 226, 0.5) 0 1rem 2rem; */
+        box-shadow: rgba(204, 0, 255, 0.5) 0px 7px 25px 0px;
     }
 
     .port-image {
@@ -845,7 +847,6 @@ figcaption {
         max-width: 100%;
         padding: .5rem;
     }
-
 
 }
 
