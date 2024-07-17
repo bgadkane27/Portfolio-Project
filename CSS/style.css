@@ -474,32 +474,32 @@ figcaption {
 
     .skill-container:nth-of-type(1) {
         background-color: #ffe6e6;
-        background-image: url(/Images/manual.png);
+        /* background-image: url(/Images/manual.png); */
     }
 
     .skill-container:nth-of-type(2) {
         background-color: #dfffdf;
-        background-image: url(/Images/document.png);
+        /* background-image: url(/Images/document.png); */
     }
 
     .skill-container:nth-of-type(3) {
         background-color: rgb(233, 213, 252);
-        background-image: url(/Images/document.png);
+        /* background-image: url(/Images/document.png); */
     }
 
     .skill-container:nth-of-type(4) {
         background-color: #CBF6DC;
-        background-image: url(/Images/api.png);
+        /* background-image: url(/Images/api.png); */
     }
 
     .skill-container:nth-of-type(5) {
         background-color: #CBD5F6;
-        background-image: url(/Images/explore.png);
+        /* background-image: url(/Images/explore.png); */
     }
 
     .skill-container:nth-of-type(6) {
         background-color: #FFDDD7;
-        background-image: url(/Images/usability.png);
+        /* background-image: url(/Images/usability.png); */
     }
 
 
