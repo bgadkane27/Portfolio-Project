@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
     showTab('all');
 });
 
+// Change the text after every three seconds.
 
 document.addEventListener('DOMContentLoaded', function() {
     const changeText = document.querySelector('.change-text');
@@ -73,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+// To display/hide the menu button while making the responsive 
 
 document.getElementById('mobile-navbar-btn').addEventListener('click', function() {
     const navbar = document.getElementById('navbar');
@@ -89,3 +91,4 @@ document.getElementById('mobile-navbar-btn').addEventListener('click', function(
         closeIcon.style.display = 'none';
     }
 });
+// End Here
