@@ -1103,7 +1103,7 @@ figcaption {
         position: absolute;
         top: 105%;
         right: 5px;
-        background-image: linear-gradient(to top, #ff40f5 0%, #6e45e2 100%);
+        background-image: linear-gradient(to top, #fd7ef7 0%, #6e45e2 100%);
         border-radius:3rem;
         border: 3px solid var(--white-color);
     }
