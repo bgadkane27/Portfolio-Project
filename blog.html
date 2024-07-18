@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Baburao Adkane - QA Engineer">
     <meta name="Author" content="Baburao Adkane">
-    <title>Baburao Adkane - Blogs</title>
+    <title>Baburao Adkane - Home</title>
     <link rel="icon" href="/Images/index.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
@@ -15,6 +15,7 @@
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
             <div class="logo">
                 <a href="/">B G Adkane</a>
             </div>
-            <div class="navbar">
+            <div class="navbar" id="navbar">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutme.html">About me</a></li>
@@ -34,6 +35,10 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="contactme.html">Contact me</a></li>
                 </ul>
+            </div>
+            <div class="mobile-navbar-btn" id="mobile-navbar-btn">
+                <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>                
             </div>
         </div>
     </header>
@@ -56,7 +61,8 @@
                         software quality by verifying that recent updates, bug fixes, or enhancements haven't introduced
                         new issues.</p>
                     <div class="blog-link">
-                        <a href="https://www.geeksforgeeks.org/software-engineering-regression-testing/" target="_blank"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                        <a href="https://www.geeksforgeeks.org/software-engineering-regression-testing/"
+                            target="_blank"><i class="fa-solid fa-arrow-right"></i>Read More</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +79,8 @@
                         approach focusing on verifying specific functionalities after minor changes to ensure they are
                         working as expected.</p>
                     <div class="blog-link">
-                        <a href="https://www.geeksforgeeks.org/differences-between-sanity-testing-and-smoke-testing-software-engineering/" target="_blank"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                        <a href="https://www.geeksforgeeks.org/differences-between-sanity-testing-and-smoke-testing-software-engineering/"
+                            target="_blank"><i class="fa-solid fa-arrow-right"></i>Read More</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +96,8 @@
                         behavior in a controlled environment to ensure the software meets its intended functionality.
                     </p>
                     <div class="blog-link">
-                        <a href="https://www.geeksforgeeks.org/alpha-testing-software-testing/" target="_blank"><i class="fa-solid fa-arrow-right"></i>Read More</a>
+                        <a href="https://www.geeksforgeeks.org/alpha-testing-software-testing/" target="_blank"><i
+                                class="fa-solid fa-arrow-right"></i>Read More</a>
                     </div>
                 </div>
             </div>
@@ -129,6 +137,7 @@
             <p>&copy; 2024 Baburao Adkane. All rights reserved.</p>
         </div>
     </footer>
+    <script src="/Scripts/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

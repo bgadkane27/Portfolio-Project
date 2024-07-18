@@ -15,6 +15,7 @@
         rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
             <div class="logo">
                 <a href="/">B G Adkane</a>
             </div>
-            <div class="navbar">
+            <div class="navbar" id="navbar">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutme.html">About me</a></li>
@@ -34,6 +35,10 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="contactme.html">Contact me</a></li>
                 </ul>
+            </div>
+            <div class="mobile-navbar-btn" id="mobile-navbar-btn">
+                <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>                
             </div>
         </div>
     </header>
@@ -197,14 +202,6 @@
             </div>
         </div>
     </section>
-    <!-- <section class="section-Branding">
-        <div class="container">
-            <h2 class="brand-head">.Smoke Testing .Sanity Testing .Regression Testing</h2>
-        </div>
-        <div class="container">
-            <h2 class="brand-subhead">ReTesting. API Testing. Exploratory Testing. Web Development.</h2>
-        </div>
-    </section> -->
     <section class="section-testrange">
         <div class="section-head--title" data-aos="fade-up">
             <span class="section-title"><i class="fa-solid fa-diamond"></i>Application Platforms<i

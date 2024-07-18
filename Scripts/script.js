@@ -71,3 +71,21 @@ document.addEventListener('DOMContentLoaded', function() {
         changeText.textContent = texts[index];
     }, 3000);
 });
+
+
+
+document.getElementById('mobile-navbar-btn').addEventListener('click', function() {
+    const navbar = document.getElementById('navbar');
+    navbar.classList.toggle('open');
+    
+    const menuIcon = document.querySelector('ion-icon[name="menu-outline"]');
+    const closeIcon = document.querySelector('ion-icon[name="close-outline"]');
+    
+    if (navbar.classList.contains('open')) {
+        menuIcon.style.display = 'none';
+        closeIcon.style.display = 'block';
+    } else {
+        menuIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+    }
+});
