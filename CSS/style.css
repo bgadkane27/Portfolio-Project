@@ -98,6 +98,14 @@ li {
     -o-border-radius: 5rem;
 }
 
+a:hover{
+    cursor:url(/Images/arrow2.png), auto;
+}
+
+a.tab:hover{
+    cursor:url(/Images/arrow2.png), auto;
+}
+
 .button {
     display: inline-block;
     margin-top: 1.4rem;
@@ -140,7 +148,7 @@ li {
         z-index: 0;
         color: var(--white-color);
         box-shadow: .2rem 0 2rem #008cff, .2rem 0 2rem #e100ff;
-        cursor:url(/Images/cursor5.png), auto;
+        cursor:url(/Images/arrow3.png), auto;
 
         i {
             color: var(--white-color);
