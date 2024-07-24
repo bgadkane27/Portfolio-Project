@@ -99,11 +99,11 @@ li {
 }
 
 a:hover{
-    cursor:url(/Images/arrow2.png), auto;
+    cursor:url(/Images/pointer_3.png), auto;
 }
 
 a.tab:hover{
-    cursor:url(/Images/arrow2.png), auto;
+    cursor:url(/Images/pointer_3.png), auto;
 }
 
 .button {
