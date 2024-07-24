@@ -99,11 +99,11 @@ li {
 }
 
 a:hover{
-    cursor:url(/Images/pointer_3.png), auto;
+    cursor:url(/Images/pointer_2.png), auto;
 }
 
 a.tab:hover{
-    cursor:url(/Images/pointer_3.png), auto;
+    cursor:url(/Images/pointer_2.png), auto;
 }
 
 .button {
@@ -148,7 +148,7 @@ a.tab:hover{
         z-index: 0;
         color: var(--white-color);
         box-shadow: .2rem 0 2rem #008cff, .2rem 0 2rem #e100ff;
-        cursor:url(/Images/arrow3.png), auto;
+        cursor:url(/Images/pointer_1.png), auto;
 
         i {
             color: var(--white-color);
