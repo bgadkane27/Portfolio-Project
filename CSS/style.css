@@ -140,7 +140,7 @@ li {
         z-index: 0;
         color: var(--white-color);
         box-shadow: .2rem 0 2rem #008cff, .2rem 0 2rem #e100ff;
-        cursor: pointer;
+        cursor:url(/Images/cursor5.png), auto;
 
         i {
             color: var(--white-color);
