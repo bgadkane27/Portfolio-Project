@@ -79,8 +79,8 @@ li {
 }
 
 #preloader{
-    background: #fff url(/Images/loader.gif) no-repeat center center;
-    background-size: 15%;
+    background: #fff url(/Images/load1.gif) no-repeat center center;
+    background-size: 50%;
     width:100%;
     height: 100vh;
     z-index: 100;
