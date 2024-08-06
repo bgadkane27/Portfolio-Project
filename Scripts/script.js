@@ -62,16 +62,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Change the text after every three seconds.
 
-document.addEventListener('DOMContentLoaded', function() {
-    const changeText = document.querySelector('.change-text');
-    const texts = ['QA', 'QC'];
-    let index = 0;
+// document.addEventListener('DOMContentLoaded', function() {
+//     const changeText = document.querySelector('.change-text');
+//     const texts = ['QA', 'QC'];
+//     let index = 0;
 
-    setInterval(() => {
-        index = (index + 1) % texts.length;
-        changeText.textContent = texts[index];
-    }, 3000);
-});
+//     setInterval(() => {
+//         index = (index + 1) % texts.length;
+//         changeText.textContent = texts[index];
+//     }, 3000);
+// });
 
 
 // To display/hide the menu button while making the responsive 

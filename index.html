@@ -51,7 +51,8 @@
                 </div>
                 <h1 class="hero-heading">Baburao Adkane</h1>
                 <!-- <h2 class="main-post">QA Engineer</h2> -->
-                <h2 class="main-post"><span class="change-text">QA</span> Engineer</h2>
+                <!-- <h2 class="main-post"><span class="change-text">QA</span> Engineer</h2> -->
+                 <h2 class="main-post">I'm a <span class="auto"></span></h2>
                 <p class="main-para"> As a QA Enginner I ensure the quality and reliabilty of a software. <br>
                     Passion to learn and adopt new technologies.</p>
                 <div class="button">
@@ -693,8 +694,9 @@
             <p>&copy; 2024 Baburao Adkane. All rights reserved.</p>
         </div>
     </footer>
-    <script src="/Scripts/script.js"></script>
+    <script src="Scripts/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         AOS.init();
     </script>
@@ -703,6 +705,15 @@
         window.addEventListener("load",function(){
             loader.style.display="none";
         })
+    </script>
+    <script>
+        var typed=new Typed(".auto",{
+            strings:["QA Engineer", 'QC Engineer', 'Designer'],
+            loop:true,
+            typeSpeed:120,
+            backSpeed:120,
+            backDelay: 1000,
+        });
     </script>
 </body>
 
