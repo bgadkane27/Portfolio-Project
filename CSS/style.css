@@ -1148,3 +1148,35 @@ figcaption {
         display: none;
     }  
 }
+
+.cursor{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-color:#086bff;
+    transition: transform .3s ease;
+    transform-origin: center center;
+    pointer-events: none;
+    z-index: 100000;
+    -webkit-transition: transform .3s ease;
+    -moz-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    -o-transition: transform .3s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.grow, .grow-small{
+    transform: scale(10);
+    background: #fff;
+    mix-blend-mode: difference;
+    border: none;
+}
+.grow-small{
+    transform: scale(2.5);
+}
