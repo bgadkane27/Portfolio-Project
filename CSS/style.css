@@ -273,7 +273,7 @@ figcaption {
         justify-content: space-between;
         align-items: center;
         max-width: 120rem;
-        padding: 1.2rem;
+        padding: 1.5rem;
     }
 
     .logo a {
@@ -345,26 +345,28 @@ figcaption {
 
     .hero-heading {
         font-size: 6.4rem;
-        background-image: linear-gradient(to right, #008afc, #b20ac9);
+        background-image: linear-gradient(to right, #2c9af5, #eb0ebb);
         background-clip: text;
         color: transparent;
+        padding: 1rem 0;
     }
 
     .main-post {
-        font-size: 3.2rem;
-        background-image: linear-gradient(to right, #2c9af5, #c201db 50%);
+        font-size: 3.6rem;
+        font-weight: 800;
+        background-image: linear-gradient(to right, #2c9af5, #eb0ebb 50%);
         background-clip: text;
         color: transparent;
     }
 
-    .change-text{
+    /* .change-text{
         position: relative;
         display: inline-block;
         color: #008afc;
         padding: .2rem 1.2rem .7rem 1.2rem;
         background-color:#fff;
         border-radius: 5rem;
-    }
+    } */
 
     .main-para {
         padding: 1.2rem 0;
