@@ -42,7 +42,7 @@ var cursor = document.querySelector('.cursor'),
     mouseX = 0,
     mouseY = 0
 
-gsap.to({}, 0.01, {
+gsap.to({}, 0.016, {
     repeat: -1,
 
     onRepeat: function () {

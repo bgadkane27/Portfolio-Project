@@ -1172,11 +1172,23 @@ figcaption {
 }
 
 .grow, .grow-small{
-    transform: scale(10);
+    margin-top: 0;
+    margin-left: 0;
+    transform: scale(6);
     background: #fff;
     mix-blend-mode: difference;
     border: none;
+    -webkit-transform: scale(6);
+    -moz-transform: scale(6);
+    -ms-transform: scale(6);
+    -o-transform: scale(6);
 }
 .grow-small{
-    transform: scale(2.5);
+    margin-top: -2rem;
+    margin-left: -1rem;
+    transform: scale(3);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(3);
+    -ms-transform: scale(3);
+    -o-transform: scale(3);
 }
