@@ -1,41 +1,3 @@
-// function showTab(tabName) {
-//     var i;
-//     var contents = document.getElementsByClassName("content");
-//     for (i = 0; i < contents.length; i++) {
-//         contents[i].classList.remove("active");
-//     }
-//     document.getElementById(tabName).classList.add("active");
-// }
-
-// // Default to showing the 'All' tab
-// document.addEventListener("DOMContentLoaded", function() {
-//     showTab('all');
-// });
-
-// function showTab(tabName) {
-//     // Get all elements with class="content" and hide them
-//     var contents = document.getElementsByClassName('content');
-//     for (var i = 0; i < contents.length; i++) {
-//         contents[i].style.display = 'none';
-//     }
-
-//     // Get all elements with class="tab" and remove the class "active"
-//     var tabs = document.getElementsByClassName('tab');
-//     for (var i = 0; i < tabs.length; i++) {
-//         tabs[i].classList.remove('active');
-//     }
-
-//     // Show the current tab, and add an "active" class to the button that opened the tab
-//     document.getElementById(tabName).style.display = 'block';
-//     event.currentTarget.classList.add('active');
-//     // document.getElementById(tabName).classList.add("active");
-// }
-
-// // Initial display setup: show 'all' tab content and set 'all' tab as active
-// document.addEventListener('DOMContentLoaded', function() {
-//     showTab('all');
-
-// });
 
 var cursor = document.querySelector('.cursor'),
     cursorScale = document.querySelectorAll('.cursor-scale'),
@@ -67,7 +29,7 @@ cursorScale.forEach(link => {
     });
     link.addEventListener('mousemove', () => {
         cursor.classList.add('grow');
-        if(link.classList.contains('small')){
+        if (link.classList.contains('small')) {
             cursor.classList.remove('grow');
             cursor.classList.add('grow-small');
         }
@@ -97,29 +59,16 @@ document.addEventListener('DOMContentLoaded', function () {
     showTab('all');
 });
 
-// Change the text after every three seconds.
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     const changeText = document.querySelector('.change-text');
-//     const texts = ['QA', 'QC'];
-//     let index = 0;
-
-//     setInterval(() => {
-//         index = (index + 1) % texts.length;
-//         changeText.textContent = texts[index];
-//     }, 3000);
-// });
-
 
 // To display/hide the menu button while making the responsive 
 
-document.getElementById('mobile-navbar-btn').addEventListener('click', function() {
+document.getElementById('mobile-navbar-btn').addEventListener('click', function () {
     const navbar = document.getElementById('navbar');
     navbar.classList.toggle('open');
-    
+
     const menuIcon = document.querySelector('ion-icon[name="menu-outline"]');
     const closeIcon = document.querySelector('ion-icon[name="close-outline"]');
-    
+
     if (navbar.classList.contains('open')) {
         menuIcon.style.display = 'none';
         closeIcon.style.display = 'block';
@@ -130,3 +79,12 @@ document.getElementById('mobile-navbar-btn').addEventListener('click', function(
 });
 // End Here
 
+// To change the designation text
+
+var typed = new Typed(".auto", {
+    strings: ["QA Engineer", 'QC Engineer', 'Designer'],
+    loop: true,
+    typeSpeed: 120,
+    backSpeed: 120,
+    backDelay: 1000,
+});
